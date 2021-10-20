@@ -1,0 +1,141 @@
+/* Note that this is all copied/pasted from the server-side rendered stuff in Header.css.  TODO fix this  */
+
+.header {
+  margin: 0px 10px 10px 10px;
+  /* padding: 20px 0; */
+  z-index: 1;
+  display: flex;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  background-color: #2f3637;
+  border-bottom: 1px solid #394243;
+  margin: auto;
+}
+
+.header > .profile-button-container {
+  display: inline-block;
+  margin: auto 45px auto auto;
+}
+
+.header > .logo-container {
+  display: inline-block;
+  width: 200px;
+  margin-top: 3px;
+  margin-left: 30px;
+}
+
+.header .logo {
+  width: 100%;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.header .logo.minimal {
+  width: unset;
+  height: 56px;
+  cursor: pointer;
+  padding-bottom: 2px;
+}
+
+.header .environment {
+  font-weight: bold;
+  color: #f15b28;
+  font-size: 1.5rem;
+  padding: 10px 0px 0px 20px;
+}
+
+.header div.top-nav {
+  margin: auto;
+}
+
+.header div.top-nav > a {
+  color: white;
+}
+
+.header div.top-nav > a:hover {
+  color: #ccc;
+}
+
+.profile-menu-container {
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.profile-menu-container:hover {
+  background-color: #394243;
+  cursor: pointer;
+}
+
+.profile-menu-container.show {
+  color: #333;
+  background-color: white;
+}
+
+.profile-menu-image {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 15px;
+  border: 1px #999 solid;
+}
+
+.menu-arrow {
+  margin-left: 10px;
+  margin-right: 5px;
+  font-size: 12px;
+  line-height: 14px;
+  color: #999;
+}
+
+/** Dropdown menu! **/
+.techrez-dropdown-menu {
+  background-color: white;
+  display: none;
+  right: 0;
+  position: absolute;
+  z-index: 100;
+  border: 1px solid #dbdbdb;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 4px;
+  left: auto;
+  max-height: 250px;
+  margin-right: 45px;
+  padding: 10px 0px;
+  width: 120px;
+}
+
+.techrez-dropdown-menu ul {
+  margin: 0;
+  padding: 0px 5px;
+}
+
+.techrez-dropdown-menu ul li {
+  display: block;
+  list-style: none;
+  text-align: left;
+  padding: 3px 10px;
+  margin: 0px;
+}
+
+.techrez-dropdown-menu ul li.option:hover {
+  background-color: #dbdbdb;
+  cursor: pointer;
+}
+
+.techrez-dropdown-menu ul li a {
+  width: 100%;
+  display: block;
+  color: #3092ec;
+  text-decoration: none;
+  font-size: 0.875rem;
+}
+
+.techrez-dropdown-menu ul li.divider {
+  margin-top: 5px;
+  border-top: 1px solid #dbdbdb;
+  cursor: none;
+}

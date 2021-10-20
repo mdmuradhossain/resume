@@ -1,0 +1,553 @@
+.main-panel {
+  width: 800px;
+  display: inline;
+  padding-right: 20px;
+}
+
+.full-panel {
+  width: 100%;
+}
+
+.right-panel {
+  border-left: solid 1px;
+  padding-left: 15px;
+  width: 250px;
+  margin-left: auto;
+}
+
+.float-right {
+  float: right;
+}
+
+.top-margin {
+  margin-top: 10px;
+}
+
+.icon {
+  height: 25px;
+  padding-right: 5px;
+  line-height: 25px !important;
+  font-size: 14px;
+}
+
+.icon-small {
+  font-size: 10px;
+  line-height: 21px !important;
+  vertical-align: bottom;
+  margin-left: 3px;
+}
+
+.icon-custom {
+  width: 25px;
+  padding-right: 10px;
+}
+
+.icon-text {
+  line-height: 25px;
+  font-size: 14px;
+  align-self: center;
+}
+
+.capsule {
+  border-radius: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.action-icon-container {
+  margin-bottom: 10px;
+  height: 25px;
+}
+
+.action-icon-container > a {
+  float: right;
+  margin-right: 10px;
+}
+
+.action-icon-container > a > i {
+  font-size: 1.4rem;
+}
+
+.action-icon-container > a > i:hover {
+  color: #bbb;
+}
+
+.container-location {
+  float: right;
+}
+
+.capsule-single-block {
+  padding: 20px;
+}
+
+.capsule-block {
+  padding: 20px;
+  display: flex;
+}
+
+.capsule-bottom {
+  padding-bottom: 10px;
+  display: flex;
+}
+
+.capsule-divider {
+  width: 100%;
+  border-top: 1px solid;
+  margin-bottom: 15px;
+}
+
+.capsule-spacer {
+  margin-top: 15px;
+}
+
+/* -- Profile section -------------- */
+div.profile-image-container {
+  display: inline;
+  float: left;
+}
+
+img.profile-image {
+  top: 186px;
+  left: 109px;
+  width: 152px;
+  height: 152px;
+  background: 0% 0% no-repeat padding-box;
+  border-radius: 50%;
+  opacity: 1;
+  display: block;
+  object-fit: cover;
+}
+
+div.profile-info-container {
+  display: inline;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h1.profile-name {
+  font-size: 24px;
+  margin: 0px 0px 5px 0px;
+  letter-spacing: 1px;
+}
+
+div.profile-title {
+  font-size: 16px;
+  margin: 0px;
+  letter-spacing: 1px;
+  font-weight: normal;
+  line-height: 25px;
+}
+
+div.profile-summary-statement-container {
+}
+
+div.profile-summary-statement {
+  margin: 3px 0px 10px 5px;
+}
+
+ul.profile-summary-statement {
+  margin-top: 3px;
+}
+
+li.profile-summary-statement {
+  margin-bottom: 10px;
+}
+
+div.profile-top-skill-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+span.profile-top-skill {
+  font-size: 13px;
+  display: inline;
+  border-radius: 15px;
+  border: none;
+  padding: 7px 10px 7px 10px;
+  margin: 5px;
+  min-width: 50px;
+  text-align: center;
+}
+
+div.profile-link-container {
+  margin-left: 10px;
+  margin-bottom: 5px;
+  width: 150px;
+}
+
+a.profile-link {
+  text-decoration: none;
+  width: 200px;
+}
+
+.profile-link-icon {
+  margin-right: 5px;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+span.profile-link-text {
+  margin-top: 3px;
+  font-size: 14px;
+  line-height: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100px;
+}
+
+div.contact-info-container {
+  font-size: 14px;
+  line-height: 14px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-bottom: solid 1px;
+}
+
+div.contact-info {
+  margin-bottom: 14px;
+  width: 200px;
+}
+
+span.contact-info-email,
+span.contact-info-phonenumber {
+  width: 170px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+}
+
+/* -- Timeline ---------------*/
+.timeline-container {
+  width: calc(100% - 50px);
+  font-size: 0px;
+  margin-top: 10px;
+  margin-left: 34px;
+  margin-right: 16px;
+}
+
+.timeline-row {
+  width: 100%;
+}
+
+.timeline-bar {
+  display: inline-block;
+  height: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-bottom: 4px solid #2f3637;
+}
+
+.timeline-bar:hover {
+  cursor: pointer;
+}
+
+.timeline-bar:hover > .timeline-text {
+}
+
+.timeline-hover {
+  display: none;
+  font-size: 13px;
+  position: absolute;
+  width: 350px;
+  left: 0px;
+  bottom: 0px;
+  z-index: 2;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 10px;
+  pointer-events: none;
+}
+
+.timeline-hover-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.timeline-hover-second-line {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.timeline-hover-subtitle {
+  font-size: 13px;
+}
+
+.timeline-hover-duration {
+  font-size: 12px;
+}
+
+.timeline-hover-location {
+  float: right;
+  font-size: 13px;
+}
+
+.timeline-hover-skills {
+  font-size: 11px;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: auto;
+}
+
+.timeline-hover-skill {
+  margin-right: 10px;
+  overflow: auto;
+}
+
+.timeline-x-axis {
+  height: 1px;
+  border-top: 1px solid;
+  width: 100%;
+}
+
+.timeline-divider {
+  height: 1px;
+  border-top: 1px solid #2f3637;
+  width: 100%;
+}
+
+.timeline-experience {
+  font-weight: bold;
+}
+
+span.timeline-text {
+  display: inline-block;
+  width: 100%;
+  font-size: 13px;
+  padding: 7px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-decoration: none;
+}
+
+span.timeline-text:hover {
+}
+
+.timeline-year {
+  font-size: 14px;
+  width: 25%;
+  display: inline-block;
+}
+
+/** Main panel (Experience, education, etc.) ----------------*/
+div.section-heading-container {
+}
+
+span.section-heading {
+  line-height: 25px;
+  font-size: 24px;
+  font-weight: bold;
+  vertical-align: top;
+}
+
+/** Experiences ----------------------------------------------*/
+
+div.experience-container {
+  margin-top: 15px;
+  padding-left: 34px;
+}
+
+div.experience-title-container {
+}
+
+span.experience-title {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+span.experience-duration {
+  float: right;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+div.subtitle-container {
+  margin-top: 1px;
+}
+
+.experience-subtitle {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+a:hover > .experience-subtitle {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.custom-experience-title {
+  font-size: 14px;
+}
+
+span.experience-summary {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 3px;
+}
+
+ul.experience-accomplishment-list {
+  margin-top: 3px;
+}
+
+li.experience-accomplishment {
+  margin-bottom: 10px;
+}
+
+div.accomplishment-skill-container {
+  display: inline;
+}
+
+span.experience-project-name {
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.experience-skill {
+  font-size: 11px;
+  border: none;
+  border-radius: 4px;
+  padding: 2px 4px 2px 4px;
+  margin: 5px 5px 0px 0px;
+}
+
+div.experience-skill-container-indent {
+  margin-left: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* -- Skills ------------------*/
+.skill-panel-heading {
+  font-weight: bold;
+  font-size: 18px;
+  padding-bottom: 0px;
+  margin: 0px;
+}
+
+.skill-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 10px;
+}
+
+.skill {
+  font-size: 11px;
+  border: 1px solid;
+  display: inline;
+  border-radius: 4px;
+  padding: 2px 4px 2px 4px;
+  margin: 5px 5px 0px 0px;
+  line-height: 14px;
+  cursor: pointer;
+}
+
+.skill:hover {
+  opacity: 0.75;
+}
+
+.skill-type {
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 640px) {
+  div.profile-image-container {
+    display: block;
+    float: none;
+  }
+
+  img.profile-image {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 152px;
+  }
+
+  div.capsule-block {
+    display: block;
+  }
+
+  div.capsule {
+  }
+
+  .mobile-hide {
+    display: none;
+  }
+
+  .right-panel {
+    display: none;
+  }
+
+  span.experience-duration {
+    float: none;
+    display: block;
+    font-style: italic;
+  }
+
+  ul.experience-accomplishment-list {
+    padding-inline-start: 15px;
+  }
+
+  div.accomplishment-skill-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .experience-skill {
+    margin-top: 0;
+  }
+
+  .timeline-scroll-container {
+    overflow-x: scroll;
+    width: auto;
+    white-space: nowrap;
+  }
+
+  .timeline-container {
+    width: 800px;
+    display: inline-block;
+  }
+
+  .capsule-bottom {
+    flex-wrap: wrap;
+  }
+
+  .section-half {
+    width: 100%;
+    justify-content: left;
+    margin-left: 30px;
+    margin-bottom: 10px;
+  }
+
+  .icon-text {
+    line-height: 35px;
+  }
+
+  .capsule-block.profile-container {
+    padding-bottom: 0px;
+  }
+}
+
+@media (hover: hover) {
+  span.profile-top-skill:hover {
+    cursor: pointer;
+    opacity: 0.75;
+  }
+
+  a.profile-link:hover {
+  }
+
+  .experience-skill:hover {
+    cursor: pointer;
+    opacity: 0.75;
+  }
+}

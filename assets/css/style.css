@@ -1,0 +1,261 @@
+body {
+  color: #dddddd;
+}
+
+.timeline - text {
+  color: #dddddd;
+}
+
+.candidate {
+  color: #dddddd;
+}
+
+custom-experience-title {
+  color: #dddddd;
+}
+
+a.custom-experience-title {
+  color: #dddddd;
+}
+
+.experience-duration {
+  color: #999999;
+}
+
+.experience-subtitle {
+  color: #999999;
+}
+
+.profile-link {
+  color: #999999;
+}
+
+.experience-skill {
+  color: #999999;
+}
+
+.icon {
+  color: #999999;
+}
+
+.candidate .title {
+  color: #999999;
+}
+
+.experience-project-name {
+  color: #999999;
+}
+
+.custom-experience-description {
+  color: #999999;
+}
+
+.contact-info {
+  color: #999999;
+}
+
+.section-heading {
+  color: #ddd;
+}
+
+.skill-panel-heading {
+  color: #ddd;
+}
+
+.experience-title {
+  color: #3092ec;
+}
+
+.skill-type {
+  color: #3092ec;
+}
+
+.candidate .name {
+  color: #3092ec;
+}
+
+.profile-top-skill {
+  color: #ffffff !important;
+}
+
+.candidate-top-skill {
+  color: #ffffff !important;
+}
+
+.skill-selected {
+  color: #ffffff !important;
+}
+
+.main-border {
+  border-color: #ffffff;
+}
+
+.candidate {
+  border-color: #ffffff;
+}
+
+.skill {
+  border-color: #637172 !important;
+}
+
+.candidate .bottom {
+  border-color: #637172 !important;
+}
+
+.right-panel {
+  border-color: #2f3637;
+}
+
+.capsule-divider {
+  border-color: #2f3637;
+}
+
+.dropdown-menu {
+  border-color: #2f3637;
+}
+
+.dropdown-menu li.divider {
+  border-color: #2f3637;
+}
+
+.profile-menu-container.show {
+  border-color: #2f3637;
+}
+
+div.contact-info-container {
+  border-color: #2f3637;
+}
+
+.skill-selected {
+  border-color: #637172;
+}
+
+.timeline-bar.education {
+  border-color: #3092ec;
+}
+
+.timeline-bar.work-experience {
+  border-color: #f15b28;
+}
+
+.header {
+  background-color: #2f3637 !important;
+}
+
+body {
+  background-color: #2f3637;
+}
+
+.capsule {
+  background-color: #394243 !important;
+}
+
+.dropdown-menu {
+  background-color: #394243 !important;
+}
+
+.profile-menu-container.show {
+  background-color: #394243 !important;
+}
+
+.candidate {
+  background-color: #394243 !important;
+}
+
+.profile-top-skill {
+  background-color: #f15b28;
+}
+
+.candidate-top-skill {
+  background-color: #f15b28;
+}
+
+.skill-selected {
+  background-color: #ab6cfe;
+}
+
+@media (hover: hover) {
+  .candidate:hover {
+    color: #dddddd;
+  }
+
+  .timeline-text:hover {
+    color: #999999;
+  }
+
+  .timeline-hover-skills {
+    color: #999999;
+  }
+
+  a.experience-subtitle:hover {
+    color: #bbbbbb !important;
+  }
+
+  a.custom-experience-title:hover {
+    color: #bbbbbb !important;
+  }
+
+  .profile-link:hover {
+    color: #bbbbbb !important;
+  }
+
+  .timeline-text:hover {
+    color: #bbbbbb !important;
+  }
+
+  .timeline-hover-name {
+    color: #3092ec;
+  }
+
+  skill:hover {
+    color: #ffffff !important;
+  }
+
+  .skill:hover {
+    color: #ffffff !important;
+  }
+
+  .profile-top-skill:hover {
+    color: #ffffff !important;
+  }
+
+  .experience-skill:hover {
+    color: #ffffff !important;
+  }
+
+  span.experience-skill.skill-selected:hover {
+    color: #ffffff !important;
+  }
+
+  .candidate:hover {
+    border-color: #637172 !important;
+  }
+
+  .timeline-hover {
+    background-color: #394243 !important;
+  }
+
+  .profile-menu-container:hover {
+    background-color: #dbdbdb !important;
+  }
+
+  .dropdown-menu li.option:hover {
+    background-color: #dbdbdb !important;
+  }
+
+  .skill:hover {
+    background-color: #ab6cfe;
+  }
+
+  .profile-top-skill:hover {
+    background-color: #ab6cfe;
+  }
+
+  .experience-skill:hover {
+    background-color: #ab6cfe;
+  }
+
+  span.experience-skill.skill-selected:hover {
+    background-color: #ab6cfe;
+  }
+}
