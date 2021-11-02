@@ -1,5 +1,6 @@
 body {
   color: #dddddd;
+  z-index: 1;
 }
 
 .timeline - text {
@@ -207,10 +208,6 @@ body {
     color: #3092ec;
   }
 
-  skill:hover {
-    color: #ffffff !important;
-  }
-
   .skill:hover {
     color: #ffffff !important;
   }
@@ -248,14 +245,31 @@ body {
   }
 
   .profile-top-skill:hover {
-    background-color: #ab6cfe;
+    background-color: #34be82;
   }
 
   .experience-skill:hover {
-    background-color: #ab6cfe;
+    background-color: #34be82;
   }
 
   span.experience-skill.skill-selected:hover {
-    background-color: #ab6cfe;
+    background-color: #34be82;
   }
+}
+
+/* Particle CSS */
+canvas {
+  display: block;
+  vertical-align: bottom;
+} /* ---- particles.js container ---- */
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  background-color: #191a19;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  z-index: -1;
 }
