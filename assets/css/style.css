@@ -144,7 +144,7 @@ div.contact-info-container {
 }
 
 body {
-  background-color: #2f3637;
+  background-color: #202126;
 }
 
 .capsule {
@@ -257,6 +257,28 @@ body {
   }
 }
 
+/* Portfolio Button */
+.portfolio-link {
+  margin-top: 30px;
+}
+.portfolio-btn {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #69f5ab;
+  color: #202126;
+  border-radius: 25px;
+  outline: none;
+  font-weight: bold;
+  text-decoration: none;
+  border: 2px solid #202126;
+  box-shadow: 0px 4px 20px rgb(0 0 0 / 70%);
+  transition: all 0.3s ease;
+}
+
+.portfolio-btn:hover {
+  background-color: #ffffff;
+  color: #202126;
+}
 /* Particle CSS */
 canvas {
   display: block;
@@ -266,7 +288,7 @@ canvas {
   position: absolute;
   width: 100%;
   height: auto;
-  background-color: #191a19;
+  background-color: #202126;
   background-image: url("");
   background-repeat: no-repeat;
   background-size: cover;
