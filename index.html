@@ -8,13 +8,953 @@
     <link href="assets/css/base.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/header.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="assets/css/resume.css" type="text/css" />
-
+    <link rel="stylesheet" href="assets/css/style.css" />
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
       rel="stylesheet"
     />
   </head>
   <body>
+    <div class="content">
+      <div class="top-spacer"></div>
+
+      <div class="action-icon-container">
+        <a href="cv/murad.pdf" title="PDF" target="_blank">
+          Download <i class="fas fa-file-pdf icon"></i
+        ></a>
+      </div>
+
+      <div class="capsule">
+        <div class="capsule-block profile-container">
+          <div class="profile-image-container">
+            <img class="profile-image" src="assets/images/murad.png" />
+          </div>
+          <div class="profile-info-container">
+            <h1 class="profile-name">Md Murad Hossain</h1>
+            <div class="profile-title">Software Developer</div>
+            <div class="profile-summary-statement-container">
+              <!-- Don't show bullet if just one -->
+
+              <!-- Show bullets if more than one -->
+              <ul class="profile-summary-statement">
+                <li class="profile-summary-statement">
+                  Four years of learning and working experience with HTML, CSS,
+                  Bootstrap JavaScript,Angular to deliver exceptional user
+                  experiences.
+                </li>
+              </ul>
+              <ul class="profile-summary-statement">
+                <li class="profile-summary-statement">
+                  Adept at contributing to a highly collaborative environment,
+                  finding solutions, and delivering customer satisfaction.
+                </li>
+              </ul>
+              <ul class="profile-summary-statement">
+                <li class="profile-summary-statement">
+                  Enjoys learning, challenges, thrives in teams, hard worker,
+                  excellent communicator, and strong writing skills.
+                </li>
+              </ul>
+            </div>
+            <div class="profile-top-skill-container">
+              <span
+                class="profile-top-skill react"
+                onclick="javascript:highlightSkill(&#39;angular&#39;, &#39;work-experience&#39;)"
+                >Angular</span
+              ><span
+                class="profile-top-skill javascript"
+                onclick="javascript:highlightSkill(&#39;javascript&#39;, &#39;work-experience&#39;)"
+                >Javascript</span
+              ><span
+                class="profile-top-skill html"
+                onclick="javascript:highlightSkill(&#39;html&#39;, &#39;work-experience&#39;)"
+                >HTML</span
+              ><span
+                class="profile-top-skill css"
+                onclick="javascript:highlightSkill(&#39;css&#39;, &#39;work-experience&#39;)"
+                >CSS</span
+              ><span
+                class="profile-top-skill java"
+                onclick="javascript:highlightSkill(&#39;java&#39;, &#39;work-experience&#39;)"
+                >Java</span
+              >
+              <span
+                class="profile-top-skill springboot"
+                onclick="javascript:highlightSkill(&#39;springboot&#39;, &#39;work-experience&#39;)"
+                >Spring Boot</span
+              >
+            </div>
+          </div>
+
+          <div class="right-panel summary">
+            <div class="contact-info-container">
+              <div class="contact-info">
+                <a
+                  class="profile-link"
+                  target="_blank"
+                  href="mdmuradhossain@hotmail.com"
+                >
+                  <i class="fa profile-link-icon fa-envelope"></i>
+                  <span
+                    class="contact-info-email"
+                    title="mdmuradhossain@hotmail.com"
+                    >mdmuradhossain@hotmail.com</span
+                  >
+                </a>
+              </div>
+              <div class="contact-info">
+                <i class="fa profile-link-icon fa-phone"></i>
+                <span>+8801676761068</span>
+              </div>
+            </div>
+            <div class="profile-link-container">
+              <a
+                class="profile-link"
+                target="_blank"
+                href="https://www.linkedin.com/in/mdmuradhossain/"
+              >
+                <i class="fa profile-link-icon fa-linkedin"></i>
+                <span class="profile-link-text">LinkedIn</span>
+              </a>
+            </div>
+            <div class="profile-link-container">
+              <a
+                class="profile-link"
+                target="_blank"
+                href="https://github.com/mdmuradhossain"
+              >
+                <i class="fa profile-link-icon fa-github"></i>
+                <span class="profile-link-text">GitHub</span>
+              </a>
+            </div>
+            <div class="profile-link-container">
+              <a
+                class="profile-link"
+                target="_blank"
+                href="https://twitter.com/mdmuradhossainn"
+              >
+                <i class="fa profile-link-icon fa-twitter"></i>
+                <span class="profile-link-text">Twitter</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="capsule-divider"></div>
+
+        <div class="capsule-bottom">
+          <span class="section-half">
+            <img class="icon-custom" src="assets/images/location.svg" />
+            <span class="icon-text">Dhaka, Bangladesh</span>
+          </span>
+          <span class="section-half">
+            <img class="icon-custom" src="assets/images/star.svg" />
+            <span class="icon-text">0 years industry experience</span>
+          </span>
+        </div>
+      </div>
+
+      <div class="timeline-hover mobile-hide">
+        <div class="timeline-hover-name"></div>
+        <div class="timeline-hover-second-line">
+          <span class="timeline-hover-subtitle"></span>
+          <span class="timeline-hover-location"></span>
+        </div>
+        <div class="timeline-hover-skills"></div>
+      </div>
+
+      <div class="capsule">
+        <div class="capsule-block">
+          <div class="full-panel">
+            <div class="section-heading-container">
+              <i class="fas fa-stream icon"></i>
+              <span class="section-heading">Timeline</span>
+            </div>
+            <div class="timeline-scroll-container">
+              <div class="timeline-container">
+                <div class="timeline-row">
+                  <div
+                    class="timeline-bar education"
+                    style="width: 34%; margin-left: 6%"
+                    onmouseenter="javascript:setTimelineHoverData(&#39;B.Sc. in Computer Science and Engineering&#39;, &#39;University Of Liberal Arts, Bangladesh&#39;, &#39;Feb 2016 to &#39;, &#39;&#39;, &#39;&#39;)"
+                  >
+                    <span
+                      class="timeline-text"
+                      onclick="javascript:clearFiltersAndScroll(&#39;university-of-liberal-arts-bangladesh-Feb-2016&#39;)"
+                      >B.Sc. in Computer Science and Engineering</span
+                    >
+                  </div>
+                  <div
+                    class="timeline-bar work-experience"
+                    style="width: 18%; margin-left: 2%"
+                    onmouseenter='javascript:setTimelineHoverData(&#39;Web Developer&#39;, &#39;Upwork&#39;, &#39;Aug 2015 - Aug 2017&#39;, &#39;&#39;, &#39;["HTML","CSS","Javascript","Bootstrap","Angular","GSAP"]&#39;)'
+                  >
+                    <span
+                      class="timeline-text"
+                      onclick="javascript:clearFiltersAndScroll(&#39;acme-corpaug-2015---aug-2017&#39;)"
+                      >Web Developer</span
+                    >
+                  </div>
+                  <div
+                    class="timeline-bar work-experience"
+                    style="width: 14%; margin-left: 1%"
+                    onmouseenter='javascript:setTimelineHoverData(&#39;Full Stack Engineer&#39;, &#39;&#39;, &#39;Sep 2017 - Mar 2019&#39;, &#39;&#39;, &#39;["CSS","Unit Testing","Spring Boot","CI/CD","HTML","","Angular","Java","MySQL","Spring Data JPA/Hibernate","Spring Security","Jenkins","Docker"]&#39;)'
+                  >
+                    <span
+                      class="timeline-text"
+                      onclick="javascript:clearFiltersAndScroll(&#39;2017---mar-2019&#39;)"
+                      >Full Stack Developer</span
+                    >
+                  </div>
+                </div>
+                <!-- <div class="timeline-row">
+                  <div
+                    class="timeline-bar work-experience"
+                    style="width: 8%; margin-left: 13%"
+                    onmouseenter='javascript:setTimelineHoverData(&#39;Webmaster&#39;, &#39;California State University, Fresno&#39;, &#39;Jun 2012 - Apr 2013&#39;, &#39;&#39;, &#39;["CSS","Wordpress","MySQL","HTML","JQuery"]&#39;)'
+                  >
+                    <span
+                      class="timeline-text"
+                      onclick="javascript:clearFiltersAndScroll(&#39;california-state-university--fresnojun-2012---apr-2013&#39;)"
+                      >Webmaster</span
+                    >
+                  </div>
+                  <div
+                    class="timeline-bar work-experience"
+                    style="width: 6%; margin-left: 7%"
+                    onmouseenter='javascript:setTimelineHoverData(&#39;Programming Intern&#39;, &#39;Department of Transportation&#39;, &#39;Jan 2014 - Sep 2014&#39;, &#39;&#39;, &#39;["CSS","HTML","JQuery","NodeJS","D3"]&#39;)'
+                  >
+                    <span
+                      class="timeline-text"
+                      onclick="javascript:clearFiltersAndScroll(&#39;department-of-transportationjan-2014---sep-2014&#39;)"
+                      >Programming Intern</span
+                    >
+                  </div>
+                  <div
+                    class="timeline-bar education"
+                    style="width: 14%; margin-left: 6%"
+                    onmouseenter='javascript:setTimelineHoverData(&#39;M.S. in Information Systems&#39;, &#39;University of San Francisco&#39;, &#39;Jun 2015 - Dec 2016&#39;, &#39;&#39;, &#39;["MySQL","NodeJS","HTML","CSS","Javascript"]&#39;)'
+                  >
+                    <span
+                      class="timeline-text"
+                      onclick="javascript:clearFiltersAndScroll(&#39;university-of-san-franciscojun-2015---dec-2016&#39;)"
+                      >M.S. in Information Systems</span
+                    >
+                  </div>
+                  <div
+                    class="timeline-bar work-experience"
+                    style="width: 23%; margin-left: 21%"
+                    onmouseenter='javascript:setTimelineHoverData(&#39;Front End Developer&#39;, &#39;Isotech&#39;, &#39;Apr 2019 - Present&#39;, &#39;&#39;, &#39;["CSS","Typescript","Javascript","Agile","HTML","Scrum","JQuery","React"]&#39;)'
+                  >
+                    <span
+                      class="timeline-text"
+                      onclick="javascript:clearFiltersAndScroll(&#39;isotechapr-2019---present&#39;)"
+                      >Front End Developer</span
+                    >
+                  </div>
+                </div>
+                <div class="timeline-x-axis"></div>
+                <div class="timeline-row"> -->
+                <!-- <div class="timeline-year">
+                    <span>2011</span>
+                  </div>
+                  <div class="timeline-year">
+                    <span>2013</span>
+                  </div>
+                  <div class="timeline-year">
+                    <span>2015</span>
+                  </div>
+                  <div class="timeline-year">
+                    <span>2017</span>
+                    <span class="float-right">Present</span>
+                  </div> -->
+                <!-- </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="capsule">
+        <div class="capsule-block">
+          <div class="main-panel">
+            <div class="section-heading-container">
+              <i class="fas fa-briefcase icon"></i>
+              <span class="section-heading" id="work-experience"
+                >Work Experience</span
+              >
+            </div>
+            <div style="padding: 10px 30px"><strong>null</strong></div>
+            <!-- <div
+              class="
+                experience-container
+                css
+                typescript
+                javascript
+                agile
+                html
+                scrum
+                jquery
+                react
+              "
+              id="isotechapr-2019---present"
+            >
+              <div class="experience-title-container">
+                <span class="experience-title">Front End Developer</span>
+                <span class="experience-duration">Apr 2019 - Present</span>
+              </div>
+              <div class="experience-subtitle-container">
+                <span class="experience-subtitle">Company Name</span>
+              </div>
+              <ul class="experience-accomplishment-list">
+                <li
+                  class="
+                    experience-accomplishment
+                    react
+                    typescript
+                    javascript
+                    html
+                    css
+                  "
+                >
+                  <span
+                    >Migrated a multi-page user experience into a single page
+                    app, improving customer engagement by 10%.</span
+                  >
+                  <div class="accomplishment-skill-container">
+                    <span
+                      class="experience-skill react"
+                      onclick="javascript:highlightSkill(&#39;angular&#39;)"
+                      >Angular</span
+                    ><span
+                      class="experience-skill typescript"
+                      onclick="javascript:highlightSkill(&#39;typescript&#39;)"
+                      >Typescript</span
+                    ><span
+                      class="experience-skill javascript"
+                      onclick="javascript:highlightSkill(&#39;javascript&#39;)"
+                      >Javascript</span
+                    ><span
+                      class="experience-skill html"
+                      onclick="javascript:highlightSkill(&#39;html&#39;)"
+                      >HTML</span
+                    ><span
+                      class="experience-skill css"
+                      onclick="javascript:highlightSkill(&#39;css&#39;)"
+                      >CSS</span
+                    >
+                  </div>
+                </li>
+                <li class="experience-accomplishment angular">
+                  <span
+                    >Architected product tours with React for a new feature that
+                    improved customer adoption by 20% leading to $1M in
+                    revenue.</span
+                  >
+                  <div class="accomplishment-skill-container">
+                    <span
+                      class="experience-skill react"
+                      onclick="javascript:highlightSkill(&#39;angular&#39;)"
+                      >Angular</span
+                    >
+                  </div>
+                </li>
+                <li class="experience-accomplishment jquery html">
+                  <span
+                    >Partnered with data science to develop the front end for a
+                    product recommendation engine that increased user time on a
+                    page by 5 minutes.</span
+                  >
+                  <div class="accomplishment-skill-container">
+                    <span
+                      class="experience-skill jquery"
+                      onclick="javascript:highlightSkill(&#39;jquery&#39;)"
+                      >JQuery</span
+                    ><span
+                      class="experience-skill html"
+                      onclick="javascript:highlightSkill(&#39;html&#39;)"
+                      >HTML</span
+                    >
+                  </div>
+                </li>
+                <li class="experience-accomplishment agile scrum">
+                  <span
+                    >Participated in each step of the product development
+                    process from ideation to development improvement for
+                    features reaching over 150,000 users.</span
+                  >
+                  <div class="accomplishment-skill-container">
+                    <span
+                      class="experience-skill agile"
+                      onclick="javascript:highlightSkill(&#39;agile&#39;)"
+                      >Agile</span
+                    ><span
+                      class="experience-skill scrum"
+                      onclick="javascript:highlightSkill(&#39;scrum&#39;)"
+                      >Scrum</span
+                    >
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="
+                experience-container
+                css
+                unit-testing
+                django
+                ci/cd
+                html
+                selenium
+                angular
+                python
+              "
+              id="acceleration-workssep-2017---mar-2019"
+            >
+              <div class="experience-title-container">
+                <span class="experience-title">Full Stack Engineer</span>
+                <span class="experience-duration">Sep 2017 - Mar 2019</span>
+              </div>
+              <div class="experience-subtitle-container">
+                <span class="experience-subtitle">Company Name</span>
+              </div>
+              <ul class="experience-accomplishment-list">
+                <li class="experience-accomplishment angular html css">
+                  <span
+                    >Overhauled the UI of an internal tool to refund customers
+                    which helped the customer experience team of 10 improve
+                    refund speed by 10%.</span
+                  >
+                  <div class="accomplishment-skill-container">
+                    <span
+                      class="experience-skill angular"
+                      onclick="javascript:highlightSkill(&#39;angular&#39;)"
+                      >Angular</span
+                    ><span
+                      class="experience-skill html"
+                      onclick="javascript:highlightSkill(&#39;html&#39;)"
+                      >HTML</span
+                    ><span
+                      class="experience-skill css"
+                      onclick="javascript:highlightSkill(&#39;css&#39;)"
+                      >CSS</span
+                    >
+                  </div>
+                </li>
+                <li class="experience-accomplishment django python">
+                  <span
+                    >Worked with another developer to implement RESTful APIs in
+                    Spring boot that enabled the analytical team of five to
+                    increase reporting speeds by 20%.</span
+                  >
+                  <div class="accomplishment-skill-container">
+                    <span
+                      class="experience-skill django"
+                      onclick="javascript:highlightSkill(&#39;Spring Boot&#39;)"
+                      >Spring Boot</span
+                    ><span
+                      class="experience-skill python"
+                      onclick="javascript:highlightSkill(&#39;java&#39;)"
+                      >Java</span
+                    >
+                  </div>
+                </li>
+                <li
+                  class="experience-accomplishment selenium unit-testing ci/cd"
+                >
+                  <span
+                    >Used Selenium to build a unit testing infrastructure for a
+                    client application that reduced the number of user-reported
+                    busy by 8% monthly.</span
+                  >
+                  <div class="accomplishment-skill-container">
+                    <span
+                      class="experience-skill unit-testing"
+                      onclick="javascript:highlightSkill(&#39;unit-testing&#39;)"
+                      >Unit Testing</span
+                    ><span
+                      class="experience-skill ci/cd"
+                      onclick="javascript:highlightSkill(&#39;ci/cd&#39;)"
+                      >CI/CD</span
+                    >
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="
+                experience-container
+                teamsite
+                css
+                javascript
+                html
+                jquery
+                nodejs
+              "
+              id="acme-corpaug-2015---aug-2017"
+            >
+              <div class="experience-title-container">
+                <span class="experience-title">Web Developer</span>
+                <span class="experience-duration">Aug 2015 - Aug 2017</span>
+              </div>
+              <div class="experience-subtitle-container">
+                <span class="experience-subtitle">Company Name</span>
+              </div>
+              <ul class="experience-accomplishment-list">
+                <li class="experience-accomplishment teamsite">
+                  <span
+                    >Maintained, developed, and designed the public webside for
+                    all 5 states on a weekly basis with TeamSite</span
+                  >
+                  <div class="accomplishment-skill-container">
+                    <span
+                      class="experience-skill teamsite"
+                      onclick="javascript:highlightSkill(&#39;teamsite&#39;)"
+                      >TeamSite</span
+                    >
+                  </div>
+                </li>
+                <li
+                  class="experience-accomplishment javascript jquery html css"
+                >
+                  <span
+                    >Developed and designed a UI for a customer health database
+                    and created a secure login for over 100 members.</span
+                  >
+                  <div class="accomplishment-skill-container">
+                    <span
+                      class="experience-skill javascript"
+                      onclick="javascript:highlightSkill(&#39;javascript&#39;)"
+                      >Javascript</span
+                    ><span
+                      class="experience-skill jquery"
+                      onclick="javascript:highlightSkill(&#39;jquery&#39;)"
+                      >JQuery</span
+                    ><span
+                      class="experience-skill html"
+                      onclick="javascript:highlightSkill(&#39;html&#39;)"
+                      >HTML</span
+                    ><span
+                      class="experience-skill css"
+                      onclick="javascript:highlightSkill(&#39;css&#39;)"
+                      >CSS</span
+                    >
+                  </div>
+                </li>
+                <li class="experience-accomplishment javascript html nodejs">
+                  <span
+                    >Designed assessment forms for different customer stages
+                    that cut processing time by 30%</span
+                  >
+                  <div class="accomplishment-skill-container">
+                    <span
+                      class="experience-skill javascript"
+                      onclick="javascript:highlightSkill(&#39;javascript&#39;)"
+                      >Javascript</span
+                    ><span
+                      class="experience-skill html"
+                      onclick="javascript:highlightSkill(&#39;html&#39;)"
+                      >HTML</span
+                    ><span
+                      class="experience-skill nodejs"
+                      onclick="javascript:highlightSkill(&#39;angular&#39;)"
+                      >Angular</span
+                    >
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="experience-container css html jquery nodejs d3"
+              id="department-of-transportationjan-2014---sep-2014"
+            >
+              <div class="experience-title-container">
+                <span class="experience-title">Programming Intern</span>
+                <span class="experience-duration">Jan 2014 - Sep 2014</span>
+              </div>
+              <div class="experience-subtitle-container">
+                <span class="experience-subtitle">Company Name</span>
+              </div>
+              <ul class="experience-accomplishment-list">
+                <li class="experience-accomplishment html css">
+                  <span
+                    >Maintained a collection of static, informational web pages
+                    that report on road closures and other transportation
+                    issues.</span
+                  >
+                  <div class="accomplishment-skill-container">
+                    <span
+                      class="experience-skill html"
+                      onclick="javascript:highlightSkill(&#39;html&#39;)"
+                      >HTML</span
+                    ><span
+                      class="experience-skill css"
+                      onclick="javascript:highlightSkill(&#39;css&#39;)"
+                      >CSS</span
+                    >
+                  </div>
+                </li>
+                <li class="experience-accomplishment jquery nodejs html css d3">
+                  <span
+                    >Built an internal web app used by employees to query a
+                    central transportation database to understand important
+                    trends and statistics.</span
+                  >
+                  <div class="accomplishment-skill-container">
+                    <span
+                      class="experience-skill jquery"
+                      onclick="javascript:highlightSkill(&#39;jquery&#39;)"
+                      >JQuery</span
+                    ><span
+                      class="experience-skill nodejs"
+                      onclick="javascript:highlightSkill(&#39;nodejs&#39;)"
+                      >NodeJS</span
+                    ><span
+                      class="experience-skill html"
+                      onclick="javascript:highlightSkill(&#39;html&#39;)"
+                      >HTML</span
+                    ><span
+                      class="experience-skill css"
+                      onclick="javascript:highlightSkill(&#39;css&#39;)"
+                      >CSS</span
+                    ><span
+                      class="experience-skill d3"
+                      onclick="javascript:highlightSkill(&#39;d3&#39;)"
+                      >D3</span
+                    >
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="experience-container css wordpress mysql html jquery"
+              id="california-state-university--fresnojun-2012---apr-2013"
+            >
+              <div class="experience-title-container">
+                <span class="experience-title">Backend Developer</span>
+                <span class="experience-duration">Jun 2012 - Apr 2013</span>
+              </div>
+              <div class="experience-subtitle-container">
+                <span class="experience-subtitle">Company Name</span>
+              </div>
+              <ul class="experience-accomplishment-list">
+                <li class="experience-accomplishment html css jquery wordpress">
+                  <span
+                    >Maintained static web pages for philosophy department
+                    including faculty directory, research projects, and course
+                    and program info.</span
+                  >
+                  <div class="accomplishment-skill-container">
+                    <span
+                      class="experience-skill html"
+                      onclick="javascript:highlightSkill(&#39;html&#39;)"
+                      >HTML</span
+                    ><span
+                      class="experience-skill css"
+                      onclick="javascript:highlightSkill(&#39;css&#39;)"
+                      >CSS</span
+                    ><span
+                      class="experience-skill jquery"
+                      onclick="javascript:highlightSkill(&#39;jquery&#39;)"
+                      >JQuery</span
+                    ><span
+                      class="experience-skill wordpress"
+                      onclick="javascript:highlightSkill(&#39;wordpress&#39;)"
+                      >Wordpress</span
+                    >
+                  </div>
+                </li>
+                <li class="experience-accomplishment mysql">
+                  <span
+                    >Created a relational database database for tracking program
+                    inquiries from prospective grad students.</span
+                  >
+                  <div class="accomplishment-skill-container">
+                    <span
+                      class="experience-skill mysql"
+                      onclick="javascript:highlightSkill(&#39;mysql&#39;)"
+                      >MySQL</span
+                    >
+                  </div>
+                </li>
+              </ul>
+            </div> -->
+            <div class="capsule-divider capsule-spacer"></div>
+
+            <div class="section-heading-container top-margin">
+              <i class="fas fa-university icon"></i>
+              <span class="section-heading">Education</span>
+            </div>
+            <!-- <div
+              class="experience-container mysql nodejs html css javascript"
+              id="university-of-san-franciscojun-2015---dec-2016"
+            >
+              <div class="experience-title-container">
+                <span class="experience-title">Degree Name</span>
+                <span class="experience-duration">Jun 2015 - Dec 2016</span>
+              </div>
+              <div class="experience-subtitle-container">
+                <span class="experience-subtitle">University Name</span>
+              </div>
+              <div class="experience-subtitle-container">
+                <span></span>
+              </div>
+              <div class="education-skill-container">
+                <span
+                  class="experience-skill mysql"
+                  onclick="javascript:highlightSkill(&#39;mysql&#39;)"
+                  >MySQL</span
+                ><span
+                  class="experience-skill nodejs"
+                  onclick="javascript:highlightSkill(&#39;nodejs&#39;)"
+                  >NodeJS</span
+                ><span
+                  class="experience-skill html"
+                  onclick="javascript:highlightSkill(&#39;html&#39;)"
+                  >HTML</span
+                ><span
+                  class="experience-skill css"
+                  onclick="javascript:highlightSkill(&#39;css&#39;)"
+                  >CSS</span
+                ><span
+                  class="experience-skill javascript"
+                  onclick="javascript:highlightSkill(&#39;javascript&#39;)"
+                  >Javascript</span
+                >
+              </div>
+            </div> -->
+            <div
+              class="experience-container"
+              id="california-state-university--fresnosep-2011---may-2015"
+            >
+              <div class="experience-title-container">
+                <span class="experience-title"
+                  >B.Sc. in Computer Science and Engineering</span
+                >
+                <span class="experience-duration">Feb-2016 -</span>
+              </div>
+              <div class="experience-subtitle-container">
+                <span class="experience-subtitle"
+                  >University Of Liberal Arts Bangladesh</span
+                >
+              </div>
+              <div class="experience-subtitle-container">
+                <span class="CGPA"></span>
+              </div>
+              <div class="education-skill-container"></div>
+            </div>
+            <div class="capsule-divider capsule-spacer"></div>
+
+            <div>
+              <div class="section-heading-container top-margin">
+                <i class="fas fa-file-code icon"></i>
+                <span class="section-heading"
+                  >Trainings and Certifications</span
+                >
+              </div>
+              <div class="experience-container css html" id="2018">
+                <div class="experience-title-container">
+                  <span class="custom-experience-title"
+                    >Udemy - Spring & Hibernate for Beginners (includes Spring
+                    Boot)</span
+                  >
+                  <span class="experience-duration">Dec-2018</span>
+                </div>
+                <div class="experience-subtitle-container">
+                  <span class="custom-experience-description"></span>
+                </div>
+                <div class="experience-skill-container-indent">
+                  <span class="experience-skill css">Spring 5 Core</span
+                  ><span class="experience-skill html">Spring MVC</span>
+                  <span class="experience-skill css">JPA/Hibernate</span>
+                  <span class="experience-skill css">Spring Security</span>
+                  <span class="experience-skill css">Spring Boot</span>
+                  <span class="experience-skill css">Thymeleaf</span>
+                </div>
+              </div>
+              <div class="experience-container git codepipeline" id="2016">
+                <!-- Second Cerficate If have any-->
+              </div>
+              <div class="capsule-divider capsule-spacer"></div>
+            </div>
+
+            <div>
+              <div class="section-heading-container top-margin">
+                <i class="fas fa-file-code icon"></i>
+                <span class="section-heading">Projects</span>
+              </div>
+              <div
+                class="experience-container react django mysql codepipeline"
+                id="2019"
+              >
+                <div class="experience-title-container">
+                  <span class="custom-experience-title"
+                    >Ask Developer In Bangla</span
+                  >
+                  <span class="experience-duration">
+                    <!-- year of building -->
+                  </span>
+                </div>
+                <div class="experience-subtitle-container">
+                  <span class="custom-experience-description"
+                    >Ask questions to developer,programmar,engineer to get
+                    answers in Bangla Language</span
+                  >
+                </div>
+                <div class="experience-skill-container-indent">
+                  <span class="experience-skill react">Java</span
+                  ><span class="experience-skill django">Spring Boot</span
+                  ><span class="experience-skill mysql">MySQL</span
+                  ><span class="experience-skill codepipeline"
+                    >Spring Security</span
+                  >
+                  <span class="experience-skill codepipeline"
+                    >Spring Data JPA</span
+                  >
+                </div>
+              </div>
+              <div class="experience-container html jquery" id="2013">
+                <div class="experience-title-container">
+                  <span class="custom-experience-title">Modern Ecommerce</span>
+                  <span class="experience-duration">
+                    <!-- Year of building -->
+                  </span>
+                </div>
+                <div class="experience-subtitle-container">
+                  <span class="custom-experience-description"
+                    >Modern Ecommerce based on Rest-API with admin panel and
+                    payment gateway using Stripe.</span
+                  >
+                </div>
+                <div class="experience-skill-container-indent">
+                  <span class="experience-skill html">Java</span
+                  ><span class="experience-skill jquery">Spring Boot</span>
+                  <span class="experience-skill jquery">Spring Boot JPA</span>
+                  <span class="experience-skill jquery">Spring Boot Cache</span>
+                  <span class="experience-skill jquery">OpenAPI</span>
+                  <span class="experience-skill jquery">MySQL</span>
+                </div>
+              </div>
+              <div class="capsule-divider capsule-spacer"></div>
+            </div>
+          </div>
+          <div class="right-panel">
+            <div class="skill-panel-heading">Skills</div>
+            <div>
+              <div class="skill-type">Front End</div>
+              <div class="skill-container">
+                <span
+                  class="skill react"
+                  onclick="javascript:highlightSkill(&#39;bootstrap&#39;)"
+                  >Bootstrap</span
+                ><span
+                  class="skill angular"
+                  onclick="javascript:highlightSkill(&#39;angular&#39;)"
+                  >Angular</span
+                ><span
+                  class="skill javascript"
+                  onclick="javascript:highlightSkill(&#39;javascript&#39;)"
+                  >Javascript</span
+                ><span
+                  class="skill html"
+                  onclick="javascript:highlightSkill(&#39;html&#39;)"
+                  >HTML</span
+                ><span
+                  class="skill css"
+                  onclick="javascript:highlightSkill(&#39;css&#39;)"
+                  >CSS</span
+                ><span
+                  class="skill typescript"
+                  onclick="javascript:highlightSkill(&#39;typescript&#39;)"
+                  >Typescript</span
+                ><span
+                  class="skill jquery"
+                  onclick="javascript:highlightSkill(&#39;gsap&#39;)"
+                  >Gsap</span
+                ><span
+                  class="skill wordpress"
+                  onclick="javascript:highlightSkill(&#39;thymeleaf&#39;)"
+                  >Thymeleaf</span
+                >
+              </div>
+            </div>
+            <div>
+              <div class="skill-type">Back End</div>
+              <div class="skill-container">
+                <span
+                  class="skill nodejs"
+                  onclick="javascript:highlightSkill(&#39;springboot&#39;)"
+                  >Spring Boot</span
+                ><span
+                  class="skill django"
+                  onclick="javascript:highlightSkill(&#39;springdatajpa&#39;)"
+                  >Spring Data JPA/Hibernate</span
+                ><span
+                  class="skill mysql"
+                  onclick="javascript:highlightSkill(&#39;mysql&#39;)"
+                  >MySQL</span
+                ><span
+                  class="skill elastic-beanstalk"
+                  onclick="javascript:highlightSkill(&#39;springsecurity&#39;)"
+                  >Spring Security</span
+                ><span
+                  class="skill python"
+                  onclick="javascript:highlightSkill(&#39;mongodb&#39;)"
+                  >MongoDB</span
+                ><span
+                  class="skill java"
+                  onclick="javascript:highlightSkill(&#39;java&#39;)"
+                  >Java</span
+                ><span
+                  class="skill sql"
+                  onclick="javascript:highlightSkill(&#39;sql&#39;)"
+                  >SQL</span
+                >
+              </div>
+            </div>
+            <div>
+              <div class="skill-type">Misc</div>
+              <div class="skill-container">
+                <span
+                  class="skill agile"
+                  onclick="javascript:highlightSkill(&#39;agile&#39;)"
+                  >Agile</span
+                ><span
+                  class="skill scrum"
+                  onclick="javascript:highlightSkill(&#39;scrum&#39;)"
+                  >Scrum</span
+                ><span
+                  class="skill unit-testing"
+                  onclick="javascript:highlightSkill(&#39;unit-testing&#39;)"
+                  >Unit Testing</span
+                ><span
+                  class="skill jenkins"
+                  onclick="javascript:highlightSkill(&#39;jenkins&#39;)"
+                  >Jenkins</span
+                ><span
+                  class="skill git"
+                  onclick="javascript:highlightSkill(&#39;git&#39;)"
+                  >Git</span
+                ><span
+                  class="skill docker"
+                  onclick="javascript:highlightSkill(&#39;docker&#39;)"
+                  >Docker</span
+                >
+                <span
+                  class="skill docker"
+                  onclick="javascript:highlightSkill(&#39;docker&#39;)"
+                  >NPM</span
+                >
+                <span
+                  class="skill docker"
+                  onclick="javascript:highlightSkill(&#39;docker&#39;)"
+                  >Maven</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Scripts -->
     <script
       crossorigin="anonymous"
