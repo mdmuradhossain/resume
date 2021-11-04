@@ -168,11 +168,11 @@ body {
 }
 
 .candidate-top-skill {
-  background-color: #f15b28;
+  background-color: #2fdd92;
 }
 
 .skill-selected {
-  background-color: #ab6cfe;
+  background-color: #34be82;
 }
 
 @media (hover: hover) {
@@ -278,6 +278,17 @@ body {
 .portfolio-btn:hover {
   background-color: #ffffff;
   color: #202126;
+}
+
+.github-link {
+  padding: 10px;
+}
+.github-link-btn {
+  display: inline-block;
+  padding: 5px 15px;
+  background-color: #69f5ab;
+  color: #2f3637;
+  text-decoration: none;
 }
 /* Particle CSS */
 canvas {
