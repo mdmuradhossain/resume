@@ -83,6 +83,7 @@
 .capsule-block {
   padding: 20px;
   display: flex;
+  flex-direction: row;
 }
 
 .capsule-bottom {
@@ -473,18 +474,19 @@ div.experience-skill-container-indent {
   }
 
   div.capsule-block {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
 
   div.capsule {
   }
 
   .mobile-hide {
-    display: none;
+    /* display: none; */
   }
 
   .right-panel {
-    display: none;
+    /* display: none; */
   }
 
   span.experience-duration {
