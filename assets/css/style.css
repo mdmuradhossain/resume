@@ -144,11 +144,20 @@ div.contact-info-container {
 }
 
 body {
-  background-color: #202126;
+  /* background-color: #202126; */
+  background-color: #191d20;
 }
 
+/* button color #0D1D3A */
 .capsule {
-  background-color: #394243 !important;
+  /* background-color: #394243 !important; */
+  background-image: linear-gradient(
+    to right bottom,
+    #0d1d3a 0,
+    #1a2f55 52%,
+    #365a83
+  );
+  background-attachment: fixed;
 }
 
 .dropdown-menu {
