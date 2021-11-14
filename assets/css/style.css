@@ -273,13 +273,14 @@ body {
 .portfolio-btn {
   display: inline-block;
   padding: 15px 30px;
-  background-color: #69f5ab;
-  color: #202126;
+  background-color: #0d1d3a;
+  /* color: #202126; */
+  color: #ffffff;
   border-radius: 25px;
   outline: none;
   font-weight: bold;
   text-decoration: none;
-  border: 2px solid #202126;
+  border: 1px solid #18e9ff;
   box-shadow: 0px 4px 20px rgb(0 0 0 / 70%);
   transition: all 0.3s ease;
 }
