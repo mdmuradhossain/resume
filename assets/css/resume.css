@@ -478,6 +478,16 @@ div.experience-skill-container-indent {
     flex-direction: column;
   }
 
+  .training {
+    display: flex;
+    flex-direction: column;
+  }
+  .custom-experience-title {
+    /* position: absolute; */
+    /* width: fit-content;
+    height: fit-content; */
+  }
+
   div.capsule {
   }
 
