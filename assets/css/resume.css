@@ -473,15 +473,19 @@ div.experience-skill-container-indent {
     max-width: 152px;
   }
 
-  div.capsule-block {
+  .capsule-block.profile-container.capsule-block-top {
     display: flex;
     flex-direction: column;
   }
 
-  .training {
+  .github-link-btn {
+    padding: 5px 10px;
+  }
+  /* .training {
     display: flex;
     flex-direction: column;
-  }
+    flex-wrap: wrap;
+  } */
   .custom-experience-title {
     /* position: absolute; */
     /* width: fit-content;
